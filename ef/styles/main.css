@@ -1,0 +1,159 @@
+body {
+	font-family: "Roboto+Condensed", cursive;
+	font-size: 10px;
+	color: black;
+	background: lightgrey;
+	margin: 0;
+	padding: 0;
+}
+
+.hesder {
+	background: ;
+}
+.header-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 95%;
+	margin: auto;
+}
+.logo {
+	font-size: 3em;
+}
+.menu {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.menu-item {
+	display: inline-block;
+	padding: 0px 20px;
+	margin: 0 10px;
+	line-height: 2;
+}
+.menu-link {
+	color: black;
+	text-decoration: none;
+	font-size: 1.8em
+}
+.menu-link:hover {
+	color: white;
+	transition: 0.3s;
+	 
+}
+.searcher {
+	background: transparent;
+	border: none;
+	outline: none;
+	color: black;
+	font-size: 1.4em;
+	background: url(../img/magnifying-glass.png);
+	background-size: 18px;
+	background-repeat: no-repeat;
+	padding-left: 20px; 
+}
+.seacher:focus {
+	border-bottom: 1px solid black;
+}
+.face {
+	height: calc(100vh - 3em);
+	background: url(../img/fon.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.face::after {
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.515);
+	position: absolute;
+}
+.face > .maska {
+	z-index: 1;
+	text-align: center;
+}
+.lob {
+	font-size: 8em;
+	color: white;
+}
+.brov {
+	font-size: 3em;
+	color: white;
+}
+
+.nos button {
+	width: 250px;
+	height: 80px;
+	 
+
+}
+
+.b-left {
+	background: transparent;
+	color:white ;
+	border :3px solid ;
+	transition: 1s;
+}
+
+.b-right:hover {
+	background: transparent;
+	color:white ;
+	border: 3px solid black;
+
+}
+.b-right {
+	background:white ;
+	color:blue ;
+	border: 3px solid black;
+	transition: 1s
+}
+.b-left:hover {
+	background:white ;
+	color:blue ;
+	border: 3px solid black;
+}
+
+.about {
+	padding:50px 0;
+	text-align: center;
+}
+
+.about-txt h3 {
+	margin: 20px 0;
+	font-size: 6em;
+}
+.about-txt p {
+	margin: auto;
+	font-size: 3em;
+	width: 60%
+
+}
+
+
+.about-row {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+
+.about-col{
+	width: calc(30% - 20px);
+	padding: 10px;
+	min-width: 200px;
+}
+.about-col img {
+	width: 50%;
+}
+
+.about-col p {
+	font-size: 1.7em;
+}
+
